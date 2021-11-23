@@ -1,13 +1,9 @@
-name: geohippy
+name: here_pysdk_examples
 channels:
   - conda-forge
   - https://repo.platform.here.com/artifactory/api/conda/olp_analytics/analytics_sdk
 dependencies:
   - python=3.9
-  - dash
-  - dash_flexbox_grid
-  - dash-leaflet
-  - dash_extensions
   - here-map-widget-for-jupyter
   - here-content
   - here-geopandas-adapter
@@ -24,6 +20,10 @@ dependencies:
   - matplotlib
   - pip
   - pip:
+     - dash
+     - dash_flexbox_grid
+     - dash-leaflet
+     - dash_extensions
      - jupyterlab-language-pack-de-DE
      - jupyterlab-language-pack-es-ES
      - jupyterlab-language-pack-fr-FR
