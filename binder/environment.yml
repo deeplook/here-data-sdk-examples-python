@@ -10,6 +10,7 @@ dependencies:
   - here-geotiles
   - here-inspector
   - here-platform
+  - ipyleaflet<0.15
   - jupyterlab
   - jupyterlab-cell-flash
   - jupyterlab-geojson
